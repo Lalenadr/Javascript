@@ -35,3 +35,17 @@ function getUser(obj){
     console.log("Jarig in",object.verjaarmaand,"en eet graag",object.food.warm[0])}
 
 getUser(object);
+
+
+let moi ={
+    voornaam:"Lalena",
+    superkracht:"omgekeerd schrijven",
+    schoenen:"veel maar draagt steeds dezelfde",
+    punten:[10,20,10,5],
+    printInfo:function(){
+        console.log('Hey')
+        console.log(`${moi.voornaam}\nJouw punten zijn: ${moi.punten.toString()}`)
+    }
+}
+
+moi.printInfo();
