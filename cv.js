@@ -29,3 +29,9 @@ Ik ben jarig op ${object.verjaardag} ${object.verjaarmaand}.
 Enkele dingen die ik graag doe zijn ${object.bezigheden.rustig.toString()}`
 
 console.log(output1);
+
+
+function getUser(obj){
+    console.log("Jarig in",object.verjaarmaand,"en eet graag",object.food.warm[0])}
+
+getUser(object);
